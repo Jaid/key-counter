@@ -1,5 +1,7 @@
 import path from "path"
 
+import {toPairs, last} from "lodash"
+
 const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.join(__dirname, "..", "src")) |> require
 
 /**
@@ -19,4 +21,5 @@ it("should run", () => {
   expect(counter.size()).toBe(3)
   expect(counter.get("lemon")).toBe(2)
   expect(counter.sum()).toBe(9)
+  expect(counter.toObjectSortedByValues() |> toPairs |> last).toStrictEqual(["peach", 5])
 })

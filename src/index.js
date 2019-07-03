@@ -1,6 +1,7 @@
 /** @module key-counter */
 
-import {isString, isArrayLike} from "lodash"
+import {isString, isArrayLike, sortBy, fromPairs} from "lodash"
+import sortKeys from "sort-keys"
 
 /**
  * @example
@@ -89,6 +90,10 @@ export default class {
     return Object.keys(this.map)
   }
 
+  values() {
+    return Object.values(this.map)
+  }
+
   /**
    * @returns {number} Sum of all counts
    */
@@ -96,6 +101,27 @@ export default class {
     return Object.values(this.map).reduce((sum, value) => {
       return sum + value
     }, 0)
+  }
+
+  /**
+   * @returns {Object<string, number>}
+   */
+  toObject() {
+    return {...this.map}
+  }
+
+  /**
+   * @returns {Object<string, number>}
+   */
+  toObjectSortedByKeys() {
+    return sortKeys(this.map)
+  }
+
+  /**
+   * @returns {Object<string, number>}
+   */
+  toObjectSortedByValues() {
+    return fromPairs(sortBy(Object.entries(this.map), [entry => entry[1], entry => entry[0]]))
   }
 
 }
