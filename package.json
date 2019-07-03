@@ -1,6 +1,6 @@
 {
   "private": true,
-  "webpackConfigJaid": "universalLib",
+  "webpackConfigJaid": "universalClass",
   "version": "0.1.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {

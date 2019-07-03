@@ -9,4 +9,36 @@
  * @function
  * @returns {number} Seconds since epoch
  */
-export default () => Math.floor(Date.now() / 1000)
+export default class {
+
+  /**
+   * @constructor
+   * @param {string[]|Object<string, number} initialValues
+   */
+  constructor(initialValues) {
+    this.map = {}
+  }
+
+  /**
+   * @contructor
+   * @param {Object<string, number>}
+   */
+  feedWithMap(counterMap) {
+
+  }
+
+  /**
+   * @param {string[]} stringArray
+   */
+  feedArray(stringArray) {
+
+  }
+
+  /**
+   * @param {string} key
+   */
+  feed(key) {
+
+  }
+
+}
