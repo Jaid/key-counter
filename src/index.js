@@ -6,7 +6,7 @@ import sortKeys from "sort-keys"
 /**
  * @example
  * import KeyCounter from "key-counter"
- * const counter = KeyCounter()
+ * const counter = new KeyCounter
  * counter.feed("bananas")
  * counter.get("bananas") === 1
  */
