@@ -3,6 +3,15 @@
 
 Simple class for structured counting.
 
+## Installation
+<a href='https://npmjs.com/package/key-counter'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save key-counter@^
+```
+<a href='https://yarnpkg.com/package/key-counter'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add key-counter@^
+```
 
 ## Example
 ```javascript
