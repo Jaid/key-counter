@@ -36,24 +36,6 @@ yarn add key-counter@^1.0.3
 ```
 
 
-## Try it out
-
-
-
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/key-counter@1.0.3/index.js");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-key-counter is now stored in the global variable `KeyCounter`. The following console expression should return something other than `"undefined"`.
-
-```javascript
-typeof KeyCounter.default
-```
 
 
 
