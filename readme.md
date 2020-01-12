@@ -1,44 +1,82 @@
 # key-counter
 
 
-Simple class for structured counting.
+<a href="https://raw.githubusercontent.com/Jaid/key-counter/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/key-counter?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/key-counter/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fkey-counter%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/key-counter/commits"><img src="https://img.shields.io/github/commits-since/Jaid/key-counter/v1.0.3?style=flat-square&logo=github" alt="Commits since v1.0.3"/></a> <a href="https://github.com/Jaid/key-counter/commits"><img src="https://img.shields.io/github/last-commit/Jaid/key-counter?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/key-counter/issues"><img src="https://img.shields.io/github/issues/Jaid/key-counter?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/key-counter"><img src="https://img.shields.io/npm/v/key-counter?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/key-counter/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/key-counter?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/key-counter"><img src="https://img.shields.io/npm/dm/key-counter?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Simple class for structured counting.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/key-counter'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/key-counter"><img src="https://img.shields.io/badge/npm-key--counter-C23039?style=flat-square&logo=npm" alt="key-counter on npm"/></a>
 ```bash
 npm install --save key-counter@^1.0.3
 ```
-<a href='https://yarnpkg.com/package/key-counter'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/key-counter"><img src="https://img.shields.io/badge/Yarn-key--counter-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="key-counter on Yarn"/></a>
 ```bash
 yarn add key-counter@^1.0.3
 ```
-
-## Example
-```javascript
-import KeyCounter from "key-counter"
-
-const counter = new KeyCounter
-
-counter.get("bananas") // null
-counter.feed("bananas")
-counter.get("bananas") // 1
+<a href="https://jsdelivr.com/package/npm/key-counter/"><img src="https://img.shields.io/badge/jsDelivr-key--counter-orange?style=flat-square&logo=html5&logoColor=white" alt="key-counter on jsDelivr"/></a> <a href="https://unpkg.com/browse/key-counter/"><img src="https://img.shields.io/badge/UNPKG-key--counter-orange?style=flat-square&logo=html5&logoColor=white" alt="key-counter on UNPKG"/></a>
+```html
+<script src="https://cdn.jsdelivr.net/npm/key-counter@1.0.3/index.js"/>
 ```
 
+
 ## Try it out
-<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
+
+
+
 Open a browser's JavaScript console and execute:
 
 ```javascript
 const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/key-counter@1.0.3");
+scriptElement.setAttribute("type", "text/javascript");
+scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/key-counter@1.0.3/index.js");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-This module is now loaded in a variable that can be accessed in any scope.
+key-counter is now stored in the global variable `KeyCounter`. The following console expression should return something other than `"undefined"`.
 
 ```javascript
 typeof KeyCounter.default
+```
+
+
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/key-counter.git
+cd key-counter
+npm install
+```
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -46,7 +84,7 @@ typeof KeyCounter.default
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
