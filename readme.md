@@ -1,9 +1,9 @@
 # key-counter
 
 
-<a href="https://raw.githubusercontent.com/Jaid/key-counter/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/key-counter?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/key-counter/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fkey-counter%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/key-counter/commits"><img src="https://img.shields.io/github/commits-since/Jaid/key-counter/v1.0.3?style=flat-square&logo=github" alt="Commits since v1.0.3"/></a> <a href="https://github.com/Jaid/key-counter/commits"><img src="https://img.shields.io/github/last-commit/Jaid/key-counter?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/key-counter/issues"><img src="https://img.shields.io/github/issues/Jaid/key-counter?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/key-counter"><img src="https://img.shields.io/npm/v/key-counter?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/key-counter/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/key-counter?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/key-counter"><img src="https://img.shields.io/npm/dm/key-counter?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/key-counter/master/license.txt"><img src="https://img.shields.io/github/license/jaid/key-counter?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor key-counter"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/key-counter/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fkey-counter%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/key-counter/commits"><img src="https://img.shields.io/github/commits-since/jaid/key-counter/v1.0.3?style=flat-square&logo=github" alt="Commits since v1.0.3"/></a> <a href="https://github.com/jaid/key-counter/commits"><img src="https://img.shields.io/github/last-commit/jaid/key-counter?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/key-counter/issues"><img src="https://img.shields.io/github/issues/jaid/key-counter?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/key-counter"><img src="https://img.shields.io/npm/v/key-counter?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/key-counter/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/key-counter?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/key-counter"><img src="https://img.shields.io/npm/dm/key-counter?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Simple class for structured counting.**
 
@@ -41,14 +41,13 @@ yarn add key-counter@^1.0.3
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/key-counter.git
+git clone git@github.com:jaid/key-counter.git
 cd key-counter
 npm install
 ```
