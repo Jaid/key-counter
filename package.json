@@ -33,5 +33,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "key-counter",
-  "description": "Simple class for structured counting."
+  "description": "Simple class for structured counting.",
+  "funding": "https://github.com/sponsors/jaid"
 }
