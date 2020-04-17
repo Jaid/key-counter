@@ -2,11 +2,13 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,
-    "charset": "utf8",
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "baseUrl": "./",
-    "outDir": "dist/ts",
+    "baseUrl": ".",
+    "outDir": "dist/typescript",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "extendedDiagnostics": true,
     "paths": {
       "lib/*": [
         "src/lib/*"
@@ -16,11 +18,14 @@
       ],
       "root/*": [
         "./*"
-      ],
+      ]
     }
   },
+  "include": [
+    "src/**/*.js"
+  ],
   "exclude": [
     "node_modules",
-    "dist",
-  ],
+    "dist"
+  ]
 }
