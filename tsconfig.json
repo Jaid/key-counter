@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
     "charset": "utf8",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
     "baseUrl": "./",
+    "outDir": "dist/ts",
     "paths": {
       "lib/*": [
         "src/lib/*"
@@ -11,11 +16,11 @@
       ],
       "root/*": [
         "./*"
-      ]
+      ],
     }
   },
   "exclude": [
     "node_modules",
-    "dist"
-  ]
+    "dist",
+  ],
 }

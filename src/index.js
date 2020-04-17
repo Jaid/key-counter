@@ -14,7 +14,7 @@ export default class {
 
   /**
    * @constructor
-   * @param {string[]|Object<string, number} [initialValues]
+   * @param {string[]|Object<string, number>} [initialValues]
    */
   constructor(initialValues) {
     this.map = {}
@@ -24,7 +24,7 @@ export default class {
   }
 
   /**
-   * @param {Object<string, number>}
+   * @param {Object<string, number>} counterMap
    */
   feedWithMap(counterMap) {
     for (const [key, incrementValue] of Object.entries(counterMap)) {
@@ -59,9 +59,9 @@ export default class {
    * @param {number} [incrementValue=1]
    */
   feed(value, incrementValue = 1) {
-    if (value |> isString) {
+    if (isString(value)) {
       this.feedWithKey(value, incrementValue)
-    } else if (value |> isArrayLike) {
+    } else if (isArrayLike(value)) {
       this.feedWithArray(value, incrementValue)
     } else {
       this.feedWithMap(value)
