@@ -1,6 +1,6 @@
 /** @module key-counter */
 
-import {isString, isArrayLike, sortBy, fromPairs} from "lodash"
+import {fromPairs, isArrayLike, isString, sortBy} from "lodash"
 import sortKeys from "sort-keys"
 
 /**
