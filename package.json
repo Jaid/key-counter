@@ -1,6 +1,6 @@
 {
   "webpackConfigJaid": "universalClass",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
     "lodash": "^4.17.19",
